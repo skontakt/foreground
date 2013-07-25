@@ -145,7 +145,7 @@ class foregroundTemplate extends BaseTemplate {
 
 		<footer class="row">
 
-		<ul class="large-12 columns">
+		<ul class="small-12 small-centered columns">
 		<?php foreach ( $this->getFooterLinks( "flat" ) as $key ) { ?>
 		        <li><?php $this->html( $key ) ?></li>
 		<?php } ?>
